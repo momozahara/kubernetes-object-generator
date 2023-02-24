@@ -14,7 +14,7 @@ cargo install --path .
 ## Usage
 Type binary name in the folder you want to generate file to
 ``` bash
-key-gen
+kube-gen
 ```
 
 ## Template
