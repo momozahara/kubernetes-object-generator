@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: {name}-deployment
+  labels:
+    app: {label}
+
+spec:
+  selector:
+    matchLabels:
+      app: {label}
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: {label}
+    spec:
+      containers:
+      - name: {cname}
+        image: {image}
+        imagePullPolicy: Always
+        ports:
+          -  containerPort: 3000
+      imagePullSecrets:
+      - name: {secret}
