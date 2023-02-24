@@ -12,7 +12,7 @@ cargo install --path .
 ```
 
 ## Usage
-Type binary name in the folder you want to generate file to
+Type binary name in terminal inside of the folder you want to generate file to
 ``` bash
 kube-gen
 ```
