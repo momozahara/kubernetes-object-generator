@@ -37,7 +37,7 @@ spec:
         image: {image}
         imagePullPolicy: Always
         ports:
-          -  containerPort: 3000
+          -  containerPort: 3000 # to edit
       imagePullSecrets: # optional
       - name: {secret}
 ```
@@ -55,9 +55,9 @@ spec:
   selector:
     app: {label}
   type: {type}
-  clusterIP:
+  clusterIP: 0.0.0.0 # to edit
   ports:
-  - port: 3000
-    targetPort: 3000
-    nodePort: 30000
+  - port: 3000 # to edit
+    targetPort: 3000 # to edit
+    nodePort: 30000 # to edit
 ```
