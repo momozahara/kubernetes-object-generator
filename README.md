@@ -1,5 +1,5 @@
 # KUBERNETES-OBJECT-GENERATOR
-A tool use to generated kubernetes simple object spec and status both [deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) and [service](https://kubernetes.io/docs/concepts/services-networking/service/) as sperate deployment.yaml and service.yaml
+A tool use to generate kubernetes simple object spec and status both [deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) and [service](https://kubernetes.io/docs/concepts/services-networking/service/) as sperate deployment.yaml and service.yaml
 
 ## Installation
 ### Remote
