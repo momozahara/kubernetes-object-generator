@@ -2,8 +2,8 @@
 A tool use to generate kubernetes simple object spec and status both [deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) and [service](https://kubernetes.io/docs/concepts/services-networking/service/) as sperate deployment.yaml and service.yaml
 
 ## Installation
-### Installer
-- [Windows](https://github.com/momozahara/kubernetes-object-generator/releases)
+
+Via installer - [Release](https://github.com/momozahara/kubernetes-object-generator/releases)
 
 ### Remote
 ``` bash
